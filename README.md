@@ -1,0 +1,2 @@
+# one_click_goldencard_review
+利用genimi api OCR之功能，直接將數位金卡申請人掃描檔轉換為必要欄位的Excel
