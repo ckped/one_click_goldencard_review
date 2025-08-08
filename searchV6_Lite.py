@@ -5,7 +5,7 @@ import io
 from datetime import datetime
 
 # === 資料庫連線 ===
-sqlite3.connect('mydb.sqlite', check_same_thread=False)
+conn = sqlite3.connect('mydb.sqlite', check_same_thread=False)
 
 st.title("🔎 企業履歷綜合查詢工具")
 
