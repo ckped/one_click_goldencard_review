@@ -5,8 +5,7 @@ import io
 from datetime import datetime
 
 # === 資料庫連線 ===
-db_path = '/Users/ianchen/Documents/投抵上市櫃資料庫系統實作/第二週/mydb.sqlite'
-conn = sqlite3.connect(db_path, check_same_thread=False)
+sqlite3.connect('mydb.sqlite', check_same_thread=False)
 
 st.title("🔎 企業履歷綜合查詢工具")
 
